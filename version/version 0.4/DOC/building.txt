@@ -1,0 +1,43 @@
+building_type_MAIN
+	выпуск частиц.
+	ѕополнение зар€да частицы.
+buidling_type_NODE
+	ма€к, при попадании частицы в зону вли€ни€ мен€ет ее направление
+	param[0] - particicle dx
+	param[1] - particicle dy
+	param[2] -
+	param[3] - particicle - SkipEnableCount
+building_type_FACTORY
+	завод, при попадании частицы в зону вли€ни€, частица перемещаетс€ на выход,
+	проходит один пункт процесса, энерги€ частицы уменьшаетс€. ѕроизводит здани€.
+	param[0] - current process
+	param[1] - current turn (to end the process)
+	param[2] - particicle x
+	param[3] - particicle y
+building_type_SPEED
+	ускоритель, при попадании частицы в зону вли€ни€ увеличивает ее скорость
+	param[0] - d—корость (TimeToTurn change)
+building_type_RECHARG
+	подзар€дка, при попадании частицы в зону вли€ни€ увеличивает ее энергию
+	param[0] - dЁнерги€
+building_type_MINE
+	шахта, при попадании частицы в зону вли€ни€ частица перемещаетс€ на выход,
+	происходит добыча сырь€ (дл€ производства зданий), энерги€ частицы уменьшаетс€.
+	param[0] -
+	param[1] - 
+	param[2]- particicle x
+	param[3]- particicle y
+building_type_CONNECTOR
+	труба по которой перемещаетс€ сырье от шахт, дл€ заводов, зар€дников, ускорителей и т.п.
+building_type_CONSTRUCTING
+	стройка здани€.
+	param[0] - тип здани€
+	param[1] - врем€ до окончани€ постройки
+	param[2] - particicle x
+	param[3] - particicle y
+building_type_BASE
+	ќсновна€ база (цель игры уничтожить базу противника).
+	ƒает возможность строить трубы.
+building_type_MINERAL
+	ћесторождение минералов (в соседних клетках можно строить шахты дл€ добычи ресурсов)
+	param[0] - кол-во ресурсов

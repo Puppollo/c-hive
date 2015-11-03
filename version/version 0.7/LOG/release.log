@@ -1,0 +1,8 @@
+START c_SpriteList::ReleaseAll
+   release ID 0
+   release ID 1
+   release ID 2
+   release ID 3
+   release ID 4
+   release ID 5
+END   c_SpriteList::ReleaseAll

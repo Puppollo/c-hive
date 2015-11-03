@@ -1,0 +1,217 @@
+  emtNodeSetDirectionU  =new c_Element(sprite,0,0,
+                                       0,0,emtNodeSetDirection_FRAME_X,emtNodeSetDirection_FRAME_Y,
+                                       &OnNodeSetDirectionU_click,&DummyFunction,log_file) ;
+  emtNodeSetDirectionUUR=new c_Element(sprite,emtNodeSetDirectionUUR_X,emtNodeSetDirectionUUR_Y,
+                                       0,0,emtNodeSetDirection_FRAME_X,emtNodeSetDirection_FRAME_Y,
+                                       &OnNodeSetDirectionUUR_click,&DummyFunction,log_file) ;
+  emtNodeSetDirectionUR =new c_Element(sprite,emtNodeSetDirectionUR_X,emtNodeSetDirectionUR_Y,
+                                       0,0,emtNodeSetDirection_FRAME_X,emtNodeSetDirection_FRAME_Y,
+                                       &OnNodeSetDirectionUR_click,&DummyFunction,log_file) ;
+  emtNodeSetDirectionURR=new c_Element(sprite,emtNodeSetDirectionURR_X,emtNodeSetDirectionURR_Y,
+                                       0,0,emtNodeSetDirection_FRAME_X,emtNodeSetDirection_FRAME_Y,
+                                       &OnNodeSetDirectionURR_click,&DummyFunction,log_file) ;
+  emtNodeSetDirectionR  =new c_Element(sprite,emtNodeSetDirectionR_X,emtNodeSetDirectionR_Y,
+                                       0,0,emtNodeSetDirection_FRAME_X,emtNodeSetDirection_FRAME_Y,
+                                       &OnNodeSetDirectionR_click,&DummyFunction,log_file) ;
+  emtNodeSetDirectionDRR=new c_Element(sprite,emtNodeSetDirectionDRR_X,emtNodeSetDirectionDRR_Y,
+                                       0,0,emtNodeSetDirection_FRAME_X,emtNodeSetDirection_FRAME_Y,
+                                       &OnNodeSetDirectionDRR_click,&DummyFunction,log_file) ;
+  emtNodeSetDirectionDR =new c_Element(sprite,emtNodeSetDirectionDR_X,emtNodeSetDirectionDR_Y,
+                                       0,0,emtNodeSetDirection_FRAME_X,emtNodeSetDirection_FRAME_Y,
+                                       &OnNodeSetDirectionDR_click,&DummyFunction,log_file) ;
+  emtNodeSetDirectionDDR=new c_Element(sprite,emtNodeSetDirectionDDR_X,emtNodeSetDirectionDDR_Y,
+                                       0,0,emtNodeSetDirection_FRAME_X,emtNodeSetDirection_FRAME_Y,
+                                       &OnNodeSetDirectionDDR_click,&DummyFunction,log_file) ;
+  emtNodeSetDirectionD  =new c_Element(sprite,emtNodeSetDirectionD_X,emtNodeSetDirectionD_Y,
+                                       0,0,emtNodeSetDirection_FRAME_X,emtNodeSetDirection_FRAME_Y,
+                                       &OnNodeSetDirectionD_click,&DummyFunction,log_file) ;
+  emtNodeSetDirectionDDL=new c_Element(sprite,emtNodeSetDirectionDDL_X,emtNodeSetDirectionDDL_Y,
+                                       0,0,emtNodeSetDirection_FRAME_X,emtNodeSetDirection_FRAME_Y,
+                                       &OnNodeSetDirectionDDL_click,&DummyFunction,log_file) ;
+  emtNodeSetDirectionDL =new c_Element(sprite,emtNodeSetDirectionDL_X,emtNodeSetDirectionDL_Y,
+                                       0,0,emtNodeSetDirection_FRAME_X,emtNodeSetDirection_FRAME_Y,
+                                       &OnNodeSetDirectionDL_click,&DummyFunction,log_file) ;
+  emtNodeSetDirectionDLL=new c_Element(sprite,emtNodeSetDirectionDLL_X,emtNodeSetDirectionDLL_Y,
+                                       0,0,emtNodeSetDirection_FRAME_X,emtNodeSetDirection_FRAME_Y,
+                                       &OnNodeSetDirectionDLL_click,&DummyFunction,log_file) ;
+  emtNodeSetDirectionL  =new c_Element(sprite,emtNodeSetDirectionL_X,emtNodeSetDirectionL_Y,
+                                       0,0,emtNodeSetDirection_FRAME_X,emtNodeSetDirection_FRAME_Y,
+                                       &OnNodeSetDirectionL_click,&DummyFunction,log_file) ;
+  emtNodeSetDirectionULL=new c_Element(sprite,emtNodeSetDirectionULL_X,emtNodeSetDirectionULL_Y,
+                                       0,0,emtNodeSetDirection_FRAME_X,emtNodeSetDirection_FRAME_Y,
+                                       &OnNodeSetDirectionULL_click,&DummyFunction,log_file) ;
+  emtNodeSetDirectionUL =new c_Element(sprite,emtNodeSetDirectionUL_X,emtNodeSetDirectionUL_Y,
+                                       0,0,emtNodeSetDirection_FRAME_X,emtNodeSetDirection_FRAME_Y,
+                                       &OnNodeSetDirectionUL_click,&DummyFunction,log_file) ;
+  emtNodeSetDirectionUUL=new c_Element(sprite,emtNodeSetDirectionULL_X,emtNodeSetDirectionULL_Y,
+                                       0,0,emtNodeSetDirection_FRAME_X,emtNodeSetDirection_FRAME_Y,
+                                       &OnNodeSetDirectionULL_click,&DummyFunction,log_file) ;
+
+
+
+
+  emtNodeSetDirectionU->SetVisible  ();
+  emtNodeSetDirectionUUR->SetVisible();
+  emtNodeSetDirectionUR->SetVisible ();
+  emtNodeSetDirectionURR->SetVisible();
+  emtNodeSetDirectionR->SetVisible  ();
+  emtNodeSetDirectionDRR->SetVisible();
+  emtNodeSetDirectionDR->SetVisible ();
+  emtNodeSetDirectionDDR->SetVisible();
+  emtNodeSetDirectionD->SetVisible  ();
+  emtNodeSetDirectionDDL->SetVisible();
+  emtNodeSetDirectionDL->SetVisible ();
+  emtNodeSetDirectionDLL->SetVisible();
+  emtNodeSetDirectionL->SetVisible  ();
+  emtNodeSetDirectionULL->SetVisible();
+  emtNodeSetDirectionUL->SetVisible ();
+  emtNodeSetDirectionUUL->SetVisible();
+  emtNodeSetDirectionU->SetEnable  ();
+  emtNodeSetDirectionUUR->SetEnable();
+  emtNodeSetDirectionUR->SetEnable ();
+  emtNodeSetDirectionURR->SetEnable();
+  emtNodeSetDirectionR->SetEnable  ();
+  emtNodeSetDirectionDRR->SetEnable();
+  emtNodeSetDirectionDR->SetEnable ();
+  emtNodeSetDirectionDDR->SetEnable();
+  emtNodeSetDirectionD->SetEnable  ();
+  emtNodeSetDirectionDDL->SetEnable();
+  emtNodeSetDirectionDL->SetEnable ();
+  emtNodeSetDirectionDLL->SetEnable();
+  emtNodeSetDirectionL->SetEnable  ();
+  emtNodeSetDirectionULL->SetEnable();
+  emtNodeSetDirectionUL->SetEnable ();
+  emtNodeSetDirectionUUL->SetEnable();
+
+
+void OnBuildMainNode_click(s_mouse *mouse,c_World *world,int &action)
+{
+  action = action_BUILD_NODE ;
+  mouse->x_frame = building_type_BUILDPLACE ;
+  mouse->y_frame=building_y_frame_GOODPLACE;
+} ;
+
+
+int FindPath(int src_x,int src_y,int dest_x,int dest_y,
+             c_World *world,int path[world_X_COUNT][world_Y_COUNT],FILE *log_file)
+{
+  for(int x=0;x<world_X_COUNT;x++)
+    for(int y=0;y<world_Y_COUNT;y++)
+    {
+      path[x][y]=-1 ;// i?enoea ianneaa iooe
+      if((world->building[x][y]).type!=building_type_NO)path[x][y]=-2; //ia eeaoea oa?ee
+    } ;
+  path[src_x][src_y]=-1;
+  path[dest_x][dest_y]=0 ;
+  if(log_file)fprintf(log_file,"--->>>FindPath\n") ;
+  int check_no_way = 0 ; // i?iaa?ea ia "iaaicii?iinou i?ieoe"
+  for(int current_step=1;current_step<100;current_step++)
+  {
+    for(int x=0;x<world_X_COUNT;x++)
+      for(int y=0;y<world_Y_COUNT;y++)
+      {
+        if(path[x][y]!=-1 && current_step-path[x][y]==1)
+        {
+          if(log_file)fprintf(log_file,"path[%d][%d] %2d,current_step %2d\n",x,y,path[x][y],current_step) ;
+          // i?iaa?ea ii X
+          if(x==0)              {if(path[x+1][y]==-1){path[x+1][y]=current_step;check_no_way++;};}
+          else
+          if(x==world_X_COUNT-1) {if(path[x-1][y]==-1){path[x-1][y]=current_step;check_no_way++;};}
+          else
+          {
+            if(path[x+1][y]==-1){path[x+1][y]=current_step;check_no_way++;};
+            if(path[x-1][y]==-1){path[x-1][y]=current_step;check_no_way++;};
+          } ;
+          // i?iaa?ea ii Y
+          if(y==0)              {if(path[x][y+1]==-1){path[x][y+1]=current_step;check_no_way++;};}
+          else
+          if(y==world_Y_COUNT-1) {if(path[x][y-1]==-1){path[x][y-1]=current_step;check_no_way++;};}
+          else
+          {
+            if(path[x][y+1]==-1){path[x][y+1]=current_step;check_no_way++;};
+            if(path[x][y-1]==-1){path[x][y-1]=current_step;check_no_way++;};
+          } ;
+        }
+      } ;
+    if(log_file)
+    {
+      fprintf(log_file,"path, current_step %d\n",current_step) ;
+      for(int y=0;y<world_Y_COUNT;y++)
+      {
+        for(int x=0;x<world_X_COUNT;x++)
+          fprintf(log_file,"%3d",path[x][y]) ;
+        fprintf(log_file,"\n") ;
+      } ;
+    } ;
+    // no way check
+    if(check_no_way==0)
+    {
+      if(log_file)fprintf(log_file,"   NO PATH\n") ;
+      return 0;
+    } ;
+    // end way check
+    if(path[src_x][src_y]>=0)
+    {
+      if(log_file)fprintf(log_file,"   PATH FIND\n") ;
+      return 1 ;
+    } ;
+  };
+  // out log
+  if(log_file)
+  {
+    fprintf(log_file,"path\n") ;
+    for(int y=0;y<world_Y_COUNT;y++)
+    {
+      for(int x=0;x<world_X_COUNT;x++)
+        fprintf(log_file,"%3d",path[x][y]) ;
+      fprintf(log_file,"\n") ;
+    } ;
+  } ;
+  if(log_file)fprintf(log_file,">>>---FindPathBall\n") ;
+  return 0; // no way
+} ;
+//------------------------------------------------------------------------------
+int BuildConnector(int &src_x,int &src_y,c_World *world,int path[world_X_COUNT][world_Y_COUNT],FILE *log_file)
+{
+  if(log_file)fprintf(log_file,"--->>>Move\n") ;
+  (world->building[src_x][src_y]).type=building_type_CONNECTOR ;
+
+  if(src_x>0) // i?iaa?ea ii X
+    if(path[src_x][src_y]>path[src_x-1][src_y] && path[src_x-1][src_y]>-1)
+    {
+      src_x-- ;
+      if(log_file,"   move left\n");
+      (world->building[src_x][src_y]).type=building_type_CONNECTOR ;
+      if(log_file)fprintf(log_file,">>>---Move\n") ;
+      return 1 ;
+    } ;
+  if(src_x<world_X_COUNT-1)
+    if(path[src_x+1][src_y]<path[src_x][src_y] && path[src_x+1][src_y]>-1)
+    {
+      src_x++;
+      if(log_file,"   move right\n");
+      if(log_file)fprintf(log_file,">>>---Move\n") ;
+      return 1 ;
+    } ;
+  if(src_y>0) // i?iaa?ea ii Y
+    if(path[src_x][src_y-1]<path[src_x][src_y] && path[src_x][src_y-1]>-1)
+    {
+      src_y-- ;
+      if(log_file,"   move up\n");
+      (world->building[src_x][src_y]).type=building_type_CONNECTOR ;
+      if(log_file)fprintf(log_file,">>>---Move\n") ;
+      return 1 ;
+    } ;
+  if(src_y<world_Y_COUNT-1)
+    if(path[src_x][src_y+1]<path[src_x][src_y] && path[src_x][src_y+1]>-1)
+    {
+      src_y++;
+      if(log_file,"   move down\n");
+      if(log_file)fprintf(log_file,">>>---Move\n") ;
+      return 1 ;
+    } ;
+  if(log_file)fprintf(log_file,"   END WAY\n") ;
+  if(log_file)fprintf(log_file,">>>---MoveBall\n") ;
+  return 0; // eiiao iooe
+} ;
+//---------------------------------------------------------------------------

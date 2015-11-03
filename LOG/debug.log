@@ -1,0 +1,54 @@
+GameInit
+DONE! Create Main Surface
+DONE! Attach Back Buffer
+START c_SpriteList::Add
+START c_Sprite::c_Sprite
+   x_size 17, y_size 22
+END   c_Sprite::c_Sprite
+   add : ID 0, path art\fontBig.bmp
+END   c_SpriteList::Add
+START c_SpriteList::Add
+START c_Sprite::c_Sprite
+   x_size 7, y_size 7
+END   c_Sprite::c_Sprite
+   add : ID 1, path art\particicle.bmp
+END   c_SpriteList::Add
+START c_SpriteList::Add
+START c_Sprite::c_Sprite
+   x_size 32, y_size 32
+END   c_Sprite::c_Sprite
+   add : ID 2, path art\buildings.bmp
+END   c_SpriteList::Add
+START c_SpriteList::Add
+START c_Sprite::c_Sprite
+   x_size 20, y_size 20
+END   c_Sprite::c_Sprite
+   add : ID 3, path art\buttons.bmp
+END   c_SpriteList::Add
+START c_SpriteList::Add
+START c_Sprite::c_Sprite
+   x_size 64, y_size 64
+END   c_Sprite::c_Sprite
+   add : ID 4, path art\panels.bmp
+END   c_SpriteList::Add
+START c_SpriteList::Add
+START c_Sprite::c_Sprite
+   x_size 11, y_size 10
+END   c_Sprite::c_Sprite
+   add : ID 5, path art\fontSmall.bmp
+END   c_SpriteList::Add
+START c_SpriteList::Add
+START c_Sprite::c_Sprite
+   x_size 32, y_size 32
+END   c_Sprite::c_Sprite
+   add : ID 6, path art\terrain.bmp
+END   c_SpriteList::Add
+GameExit
+START c_HiveElements::Release
+   releasing...
+   release complete
+END   c_HiveElements::Release
+START c_World::Release
+   releasing...
+   release complete
+END   c_World::Release

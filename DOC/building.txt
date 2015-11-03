@@ -1,0 +1,69 @@
+building_type_MAIN
+	выпуск частиц.
+	Пополнение заряда частицы.
+buidling_type_NODE
+	маяк, при попадании частицы в зону влияния меняет ее направление
+	param[0] - particicle dx
+	param[1] - particicle dy
+	param[2] - particicle - SkipEnableCount
+	param[3] - действует на particicle_type_EMTPY 
+	param[4] - действует на particicle_type_MINERAL
+	param[5] - действует на particicle_type_ENERGY
+building_type_FACTORY
+	завод, при попадании частицы в зону влияния, частица перемещается на выход,
+	проходит один пункт процесса, энергия частицы уменьшается. Производит здания.
+	param[0] - building_type
+	param[1] - current turn (to end the process)
+	param[2] - particicle x
+	param[3] - particicle y
+	param[4] - mineral count
+	param[5] - energy count
+building_type_SPEED
+	ускоритель, при попадании частицы в зону влияния увеличивает ее скорость
+	param[0] - dСкорость (TimeToTurn change)
+building_type_RECHARG
+	подзарядка, при попадании частицы в зону влияния увеличивает ее энергию
+	param[0] - dЭнергия
+building_type_MINE
+	шахта, при попадании частицы в зону влияния частица перемещается на выход,
+	происходит добыча минералов, энергия частицы уменьшается. Добываются минералы находящиеся
+	в непосредственной близости к шахте (т.е. не дальше одной клетки). После того как ресурс минерала
+	исчерпан он исчезает.
+	param[0] -
+	param[1] - 
+	param[2]- particicle x
+	param[3]- particicle y
+building_type_POWER
+	Энергостанция. Добыча энергии. Энергия относительно бесконечна.
+	Энергии добывается тем больше чем выше находится здание. Энергия не добывается на высотах 0,1,2.
+	Электростанция со временем понижает высоту поверхности на которой находится.
+	param[0] -
+	param[1] - 
+	param[2]- particicle x
+	param[3]- particicle y
+building_type_CONSTRUCTING
+	стройка здания.
+	param[0] - тип здания
+	param[1] - время до окончания постройки
+	param[2] - particicle x
+	param[3] - particicle y
+building_type_BASE
+	Основная база (цель игры уничтожить базу противника).
+	Выступает в качестве ииследовательского центра.
+	param[0] - research ID
+	param[1] - current turn
+	param[2] - particicle x
+	param[3] - particicle y
+	param[4] - mineral count
+	param[5] - energy count
+building_type_MINERAL
+	Месторождение минералов (в соседних клетках можно строить шахты для добычи ресурсов)
+	param[0] - кол-во ресурсов
+building_type_SEPARATOR
+	Разделитель, делит поток частиц на два.
+	param[0] - куда направить (0-в одну сторону, 1-в другую)
+	param[1]-
+	param[2]-
+	param[3] - действует на particicle_type_EMTPY 
+	param[4] - действует на particicle_type_MINERAL
+	param[5] - действует на particicle_type_ENERGY

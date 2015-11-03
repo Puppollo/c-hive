@@ -1,0 +1,14 @@
+building_type_MAIN
+	Основная база (выпуск частиц).
+	Пополнение заряда частицы.
+buidling_type_NODE
+	маяк, при попадании частицы в зону влияния меняет ее направление
+	param[0] - particicle dx
+	param[1] - particicle dy
+buidlding_type_FACTORY
+	завод, при попадании частицы в зону влияния, частица перемещается на выход,
+	проходит один пункт процесса.
+	param[0] - current process
+	param[1] - current turn (to end the process)
+	param[2] - particicle x
+	param[3] - particicle y

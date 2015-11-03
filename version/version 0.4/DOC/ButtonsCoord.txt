@@ -1,0 +1,24 @@
+emtPrevBuild 11+panel_x;42+panel_y
+emtNextBuild 31+panel_x;42+panel_y
+
+emtNodeSetDirection
+sprite coord	element coord
+U 	20;1+panel	+8;+8
+UUL	29;3+panel	+8;+8
+UL	35;6+panel	+8;+8
+ULL	39;12+panel	+8;+8
+L	40;20+panel	+8;+8
+DLL	38;28+panel	+8;+8
+DL	35;34+panel	+8;+8
+DDL	29;38+panel	+8;+8
+D	20;40+panel	+8;+8
+DDR	12;38+panel	+8;+8
+DR	6;35+panel	+8;+8
+DRR	3;29+panel	+8;+8
+R	2;21+panel	+8;+8
+URR	3;14+panel	+8;+8
+UR	6;6+panel	+8;+8
+UUR	12;3+panel	+8;+8
+
+emtDestoryBuilding 167;5
+emtShowTerritory 4;36 element cord +4;+4 size 12x12
